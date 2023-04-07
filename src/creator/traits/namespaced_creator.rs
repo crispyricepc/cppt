@@ -32,7 +32,6 @@ mod tests {
     use std::{
         fs::{remove_dir_all, remove_file, File},
         io::Read,
-        path::Path,
     };
 
     struct DummyCreator {
